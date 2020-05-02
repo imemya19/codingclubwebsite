@@ -1,8 +1,8 @@
 :root{
-    --global-font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
     --global-button_color_pink-background-color:#E53167;
     --global-button_color-color:#FFFFFF;
-
+    --global-blue_color-color:#3480E3;
 }
 
 
@@ -145,7 +145,7 @@ body{
 }
 
 #cclogoright{
-color:#3480E3;  
+color:var(--global-blue_color-color);  
 opacity:82%;
 font-size: 28px;
 letter-spacing: 0.07em; 
