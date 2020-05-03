@@ -17,18 +17,34 @@ html{
 }
 
 body{
+    overflow: hidden;
   font-family: var(--global-font-family);
+}
+
+.wrapper{
+    background-image: url(../media/images_loginsignup/login.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .card{
 	border-width:0px;
 	border-radius:30px;
-	width: 40%;
+	min-width: fit-content;
 	box-shadow: 0 0 10px 0.5px var(--global-blue_color-color);
 
 }
 
+.card-body{
+    text-align: center;
+}
+
+.pad{
+    padding-top: 50px;
+    padding-bottom: 13%;
+}
 
 
 
@@ -79,6 +95,7 @@ letter-spacing: 0.07em;
     margin-bottom: 40px;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: left;
 
 }
 .form-control{
@@ -101,6 +118,11 @@ padding-bottom: 30px;
     flex-wrap: wrap;
 }
 
+.space{
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
 
 
 @media(max-width: 380px)
@@ -109,10 +131,7 @@ padding-bottom: 30px;
 	margin: 0px;
 }
 .card{
-	border-width:0px ;
-	border-radius:30px;
 	width: 80% !important;
-	box-shadow: 0 0 10px 0.5px var(--global-blue_color-color);
 
 }
     #clublogo{
@@ -134,30 +153,15 @@ padding-bottom: 30px;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 768px) {
   
-
-  .inner-wrapper{
-  	margin: 0px; 
+  .pad{
+    padding-top: 30px!important;
   }
 
-.card{
-	border-width:0px;
-	border-radius:30px;
-	width: 60% !important;
-	box-shadow: 0 0 10px 0.5px var(--global-blue_color-color);
-
-}
+  .inner-wrapper{
+  	margin: 0px;
+  }
 
 .form-group {
     margin-bottom: 40px;
@@ -168,19 +172,9 @@ padding-bottom: 30px;
 
 }
 
-
-
-
-@media(max-width: 1024px){
-
-
-.card{
-	border-width:0px ;
-	border-radius:30px;
-	width: 50% !important;
-	box-shadow: 0 0 10px 0.5px var(--global-blue_color-color);
-
-}
-
+@media (min-width: 430px){
+    .card{
+        min-width: 140%; 
+    }
 }
 
