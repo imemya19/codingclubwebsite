@@ -31,6 +31,9 @@ body{
     margin-bottom: 16px;
   }
 
+#margin{
+  overflow-wrap: anywhere;
+}
 
 .wrapper{
 	overflow: hidden; 
@@ -120,8 +123,8 @@ letter-spacing: 0.07em;
     }
 
     #margin{
-    	margin-left: 0px !important;
-    	margin-right: 0px !important;
+    	margin-left: 5px !important;
+    	margin-right: 5px !important;
     	display:inherit;
 
     }
