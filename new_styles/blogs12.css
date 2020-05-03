@@ -22,6 +22,10 @@ body{
     flex-wrap: wrap;
 }
 
+#blogs{
+	padding: 5%;
+}
+
 .col-sm-auto{
     margin-top: 16px;
     margin-bottom: 16px;
@@ -134,25 +138,15 @@ letter-spacing: 0.07em;
   .inner-wrapper{
   	margin: 0px; 
   }
-   #margin{
-    	margin-left: 100px !important;
-    	margin-right: 100px !important;
-    	display:inherit;
-
-    }
+   
 
 }
 
-@media(max-width: 1024px){
+@media(min-width: 1024px){
 
-#margin	{
-	margin-left:100px !important;
+#blogs{
+	padding: 11%!important;
+}
 }
 
-#nav-item{
-	padding-left: 0px!important;
-	padding-right: 0px!important;
-	font-size:13px!important;
-	font-weight: 10px!important;
-}
-}
+
