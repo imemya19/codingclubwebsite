@@ -28,6 +28,7 @@ body{
   padding-right: 8%;
   padding-top: 3%;
   padding-bottom: 3%;
+  overflow-wrap: break-word;
 }
 
 .wrapper{
@@ -122,10 +123,6 @@ letter-spacing: 0.07em;
 
 @media(max-width: 380px)
 {
-	 .image1 {
-    width: 100%;
-    height: 100%;
-  }
     #clublogo{
     width:23%;
   }
@@ -144,13 +141,6 @@ letter-spacing: 0.07em;
     }
 }
 
-@media only screen and (max-width: 768px) {
-  .image1 {
-    width: 100%;
-    height: 100%;
-    padding-top: 30px;
-  }
-}
 
 
 
