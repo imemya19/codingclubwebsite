@@ -151,6 +151,14 @@ letter-spacing: 0.07em;
 	padding-bottom: 50px;
 }
 
+#font18{
+    font-size: 18px;
+}
+
+#font20{
+    font-size: 20px;
+}
+
 @media (max-width: 430px){
 	.dp{
 		width: 100%!important;
