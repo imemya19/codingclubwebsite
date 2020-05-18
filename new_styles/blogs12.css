@@ -66,6 +66,17 @@ body{
     padding:5px 20px;	
 }
 
+#button3{
+    border-radius: 20px;
+    background-color: white;
+    color: var(--global-button_color_pink-background-color);
+    text-align: center;
+    width:wrap-content;
+    padding:5px 20px; 
+    box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
+   
+}
+
 #cclogoright{
 color:var(--global-blue_color-color);  
 opacity:82%;

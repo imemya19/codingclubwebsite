@@ -24,8 +24,8 @@ body{
 }
 
 .col-sm-auto{
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 20px;
+
   }
 
 
@@ -58,6 +58,22 @@ body{
     text-align: center;
     width:wrap-content;
     padding:5px 20px;	
+}
+
+#button3{
+    border-radius: 20px;
+    background-color: white;
+    color: var(--global-button_color_pink-background-color);
+    text-align: center;
+    width:wrap-content;
+    padding:5px 20px; 
+    box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
+   
+}
+.box{
+ box-shadow: 0 0 10px 0.2px #3480E3;
+    border-radius: 25px;
+    height: 100%;
 }
 
 #nav-pos{
