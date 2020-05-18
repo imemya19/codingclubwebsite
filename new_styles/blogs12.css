@@ -124,7 +124,7 @@ letter-spacing: 0.07em;
 @media(max-width: 430px)
 {
     #clublogo{
-    width:23%;
+      width:23%;
   }
 
   .navbar{

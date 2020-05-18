@@ -19,10 +19,22 @@ body{
 	font-size: 18px;
 }
 
-#space{
-	padding-top: 50px;
-	padding-bottom: 50px;
+#space1{
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
+
+#space{
+  margin-top: 3%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#font20{
+    font-size: 20px;
+}
+
+
 #space2{
 	padding-bottom: 40px;
 	font-size: 35px;
@@ -85,9 +97,9 @@ body{
 }
 
 .inner-wrapper{
-	margin-top: 30px;
-	margin-left: 80px;
-	margin-right: 80px;
+  padding-top: 2%;
+  margin-right: 8%;
+  margin-left: 10%; 
 }
 
 
