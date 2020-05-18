@@ -178,3 +178,8 @@ padding-bottom: 30px;
     }
 }
 
+@media (min-width: 1035px){
+    body {
+        overflow: hidden;
+    }
+}
