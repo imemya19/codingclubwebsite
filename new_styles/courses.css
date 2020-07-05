@@ -1,0 +1,89 @@
+:root{
+    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
+    --global-button_color_pink-background-color:#E53167;
+    --global-button_color-color:#FFFFFF;
+    --global-blue_color-color:#3480E3;
+}
+
+
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+  font-family: var(--global-font-family);
+}
+
+.wrapper{
+	overflow: hidden; 
+	background-image: url(../media/images_homepage/home.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inner-wrapper{
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%; 
+}
+
+/*navbar*/
+
+#navbar-content{
+	justify-content: flex-end;
+	
+}
+
+.nav-item{
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size:17px;
+	font-weight: 10px;
+}
+
+#cclogoright{
+color:var(--global-blue_color-color);  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+
+/*nav*/
+
+/*button*/
+
+button{
+	border-width:0px;
+}
+
+#button1{
+    border-radius: 20px;
+    background-color: var(--global-button_color_pink-background-color);
+    color: var(--global-button_color-color);
+    text-align: center;
+    width:wrap-content;
+    padding:6px 18px;	
+}
+#button2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: grey;
+    text-align: center;
+    width:wrap-content;
+    padding:6px 3px;	
+}
+
+
+/*button end*/
+
+/*font*/
+#font18{
+	font-size: 18px;
+}
+
+#font20{
+    font-size: 20px;
+}
+
+/*endfont*/

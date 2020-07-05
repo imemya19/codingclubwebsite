@@ -17,9 +17,6 @@ body{
   font-family: var(--global-font-family);
 }
 
-button{
-	border-width:0px;
-}
 
 .wrapper{
     background-image: url(../media/images_blogs/Blog.svg);
@@ -83,49 +80,12 @@ button{
 }
 
 
-#button1{
-    border-radius: 20px;
-    background-color: #E53167;
-    color: #FFFFFF;
-    text-align: center;
-    width:wrap-content;
-    padding:5px 25px;	
-}
-#button2{
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    color: grey;
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px;	
-}
-
 
 .row-me{
 	display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-}
-
-
-#cclogoright{
-color:var(--global-blue_color-color);  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
-}
-
-#navbar-content{
-    justify-content: flex-end;
-    margin-top: 0!important;
-}
-
-#nav-item{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size:17px;
-    font-weight: 10px;
 }
 
 #space{
@@ -162,4 +122,55 @@ letter-spacing: 0.07em;
       letter-spacing: 0px!important;
     }
 }
+
+
+/*button*/
+
+button{
+  border-width:0px;
+}
+
+#button1{
+    border-radius: 20px;
+    background-color: var(--global-button_color_pink-background-color);
+    color: var(--global-button_color-color);
+    text-align: center;
+    width:wrap-content;
+    padding:6px 18px; 
+}
+#button2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: grey;
+    text-align: center;
+    width:wrap-content;
+    padding:6px 3px;  
+}
+
+
+/*button end*/
+
+
+/*navbar*/
+
+#navbar-content{
+  justify-content: flex-end;
+  
+}
+
+.nav-item{
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size:17px;
+  font-weight: 10px;
+}
+
+#cclogoright{
+color:var(--global-blue_color-color);  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+
+/*nav*/
 

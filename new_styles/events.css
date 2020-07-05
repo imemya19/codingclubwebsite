@@ -4,7 +4,7 @@
     --global-button_color_pink-background-color:#E53167;
     --global-button_color-color:#FFFFFF;
     --global-border_color-border-color:#AFBED3;
-
+    --global-blue_color-color:#3480E3;
 }
 
 html{
@@ -31,16 +31,45 @@ body{
 
 
 .wrapper{
-	overflow: hidden; 
-	background-image: url(../media/images_events/events.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
+  overflow: hidden; 
+  background-image: url(../media/images_events/events.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .inner-wrapper{
-	margin-top: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%; 
+}
+
+/*navbar*/
+
+#navbar-content{
+  justify-content: flex-end;
+  
+}
+
+.nav-item{
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size:17px;
+  font-weight: 10px;
+}
+
+#cclogoright{
+color:var(--global-blue_color-color);  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+
+/*nav*/
+
+/*button*/
+
+button{
+  border-width:0px;
 }
 
 #button1{
@@ -49,7 +78,7 @@ body{
     color: var(--global-button_color-color);
     text-align: center;
     width:wrap-content;
-    padding:5px 25px;	
+    padding:6px 18px; 
 }
 #button2{
     border-radius: 20px;
@@ -57,7 +86,7 @@ body{
     color: grey;
     text-align: center;
     width:wrap-content;
-    padding:5px 20px;	
+    padding:6px 3px;  
 }
 
 #button3{
@@ -70,6 +99,11 @@ body{
     box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
    
 }
+/*button end*/
+
+
+
+
 .box{
  box-shadow: 0 0 10px 0.2px #3480E3;
     border-radius: 25px;
@@ -81,24 +115,6 @@ body{
 	left: 0px;
 }
 
-#navbar-content{
-	justify-content: flex-end;
-	margin-top: 0!important;
-}
-
-#nav-item{
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size:17px;
-	font-weight: 10px;
-}
-
-#cclogoright{
-color:#3480E3;  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
-}
 
 .table-bordered{
 	border:0px;
@@ -210,20 +226,10 @@ letter-spacing: 0.07em;
   #eventsyear{
     margin-top: 30px;
   }
-  .inner-wrapper{
-  	margin: 0px; 
-  }
 
 }
 
-@media(max-width: 1024px){
 
-#nav-item{
-	padding-left: 0px!important;
-	padding-right: 0px!important;
-	font-size:13px!important;
-	font-weight: 10px!important;
-}
-}
+
 
 

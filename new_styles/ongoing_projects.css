@@ -24,19 +24,68 @@ button{
     margin:3%; 
     
 }
+
 .wrapper{
-    overflow: hidden;
-   background-image: url(../media/images_projects/project.svg); 
+    overflow: hidden; 
+     background-image: url(../media/images_projects/project.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .inner-wrapper{
-    margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%; 
 }
 
+/*navbar*/
+
+#navbar-content{
+    justify-content: flex-end;
+    
+}
+
+.nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size:17px;
+    font-weight: 10px;
+}
+
+#cclogoright{
+color:var(--global-blue_color-color);  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+
+/*nav*/
+
+/*button*/
+
+button{
+    border-width:0px;
+}
+
+#button1{
+    border-radius: 20px;
+    background-color: var(--global-button_color_pink-background-color);
+    color: var(--global-button_color-color);
+    text-align: center;
+    width:wrap-content;
+    padding:6px 18px;   
+}
+#button2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: grey;
+    text-align: center;
+    width:wrap-content;
+    padding:6px 3px;    
+}
+
+
+/*button end*/
 
 
 @media(max-width: 380px)
@@ -125,22 +174,6 @@ button{
 }
 
 
-#button1{
-    border-radius: 20px;
-    background-color: #E53167;
-    color: #FFFFFF;
-    text-align: center;
-    width:wrap-content;
-    padding:5px 25px;	
-}
-#button2{
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    color: grey;
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px;	
-}
 
 #activenavtab{
 	border-radius: 20px;
@@ -149,16 +182,7 @@ button{
     text-align: center;
 }
 
-#cclogoright{
-color:#3480E3;  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
-}
-#navbar-content{
-	justify-content: flex-end;
-	margin-top: 0!important;
-}
+
 
 #nav-pos{
 	top: 0px;
@@ -186,12 +210,7 @@ letter-spacing: 0.07em;
     height: 100%;
     
 }
-.nav-item{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size:17px;
-    font-weight: 10px;
-}
+
 .card{
     border:0px;
 }

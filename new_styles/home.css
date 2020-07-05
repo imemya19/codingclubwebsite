@@ -41,13 +41,6 @@ body{
 	letter-spacing: 0.044em;
 }
 
-#nav-item{
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size:17px;
-	font-weight: 10px;
-}
-
 
 @media(max-width: 1024px){
 
@@ -97,9 +90,9 @@ body{
 }
 
 .inner-wrapper{
-  padding-top: 2%;
-  margin-right: 8%;
-  margin-left: 10%; 
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%; 
 }
 
 
@@ -146,22 +139,10 @@ body{
 }
 
 
-#navbar-content{
-	justify-content: flex-end;
-	margin-top: 0!important;
-}
-
-
 #iitglogo{
 	text-align: center;
 }
 
-#cclogoright{
-color:var(--global-blue_color-color);  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
-}
 
 #activenavtab{
 	border-radius: 20px;
@@ -170,26 +151,7 @@ letter-spacing: 0.07em;
     text-align: center;
 }
 
-button{
-	border-width:0px;
-}
 
-#button1{
-    border-radius: 20px;
-    background-color: var(--global-button_color_pink-background-color);
-    color: var(--global-button_color-color);
-    text-align: center;
-    width:wrap-content;
-    padding:5px 25px;	
-}
-#button2{
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    color: grey;
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px;	
-}
 
 
 
@@ -199,4 +161,55 @@ button{
 	box-shadow: 0 0 5px 0.2px #3480E3;
 
 }
+
+
+/*button*/
+
+button{
+  border-width:0px;
+}
+
+#button1{
+    border-radius: 20px;
+    background-color: var(--global-button_color_pink-background-color);
+    color: var(--global-button_color-color);
+    text-align: center;
+    width:wrap-content;
+    padding:6px 18px; 
+}
+#button2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: grey;
+    text-align: center;
+    width:wrap-content;
+    padding:6px 3px;  
+}
+
+
+/*button end*/
+
+
+/*navbar*/
+
+#navbar-content{
+  justify-content: flex-end;
+  
+}
+
+.nav-item{
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size:17px;
+  font-weight: 10px;
+}
+
+#cclogoright{
+color:var(--global-blue_color-color);  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+
+/*nav*/
 
