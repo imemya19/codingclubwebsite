@@ -87,3 +87,10 @@ button{
 }
 
 /*endfont*/
+
+@media (max-width: 435px){
+  .inner-wrapper{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
