@@ -14,13 +14,13 @@ body {
   font-family: var(--global-font-family);
 }
 footer {
-    background-color: var(--global-blue_color-color);
-    color: white;
-    text-align: center;
-    font-weight: lighter;
-    padding: 0.2%;
-    font-size: small;
-  }
+  background-color: var(--global-blue_color-color);
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.2%;
+  font-size: small;
+}
 .wrapper {
   overflow: hidden;
   background-image: url(../media/images_courses/courses.svg);
@@ -87,7 +87,7 @@ button {
 }
 
 .btn {
-    display: table-cell;
+  display: table-cell;
 }
 
 /*button end*/
@@ -126,19 +126,15 @@ button {
   background-color: #5897e8;
 }
 
-#courses {
-  /* margin: 4% 0%; */
-}
-
 #space {
   padding: 4% 0%;
 }
 
-#coursename{
-    font-size: 30px;
-    padding:3%;
-    text-align: center;
-    text-decoration: underline;
+#coursename {
+  font-size: 30px;
+  padding: 3%;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .table td,
@@ -152,8 +148,6 @@ thead {
   background-color: var(--global-blue_color-color);
   color: white;
 }
-
-
 
 .table thead th {
   text-align: center;
@@ -170,11 +164,11 @@ thead {
   }
   .wrapper {
     overflow: scroll;
-  
-}
+  }
 
-@media (max-width: 768px) {
-  #one {
-    margin: 20%;
+  @media (max-width: 768px) {
+    #one {
+      margin: 20%;
+    }
   }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <title>Coding Club</title>
+    <title>Coding club</title>
 
     <link
       rel="stylesheet"
@@ -16,10 +16,12 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="../new_styles/blogs12.css" />
 
-    <link rel="icon" type="image/jpg" href="../media/images_homepage/fav.jpg" />
+    <link rel="stylesheet" type="text/css" href="./new_styles/courses.css" />
 
+    <link rel="icon" type="image/jpg" href="./media/images_homepage/fav.jpg" />
+
+    <!-- scripts -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -36,7 +38,6 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
     <div class="wrapper">
       <div class="inner-wrapper">
@@ -46,8 +47,8 @@
             <a href="https://www.facebook.com/codingclubiitg" target="_blank">
               <img
                 id="clublogo"
-                src="../media/images_homepage/fav1.png"
-                alt="..."
+                src="./media/images_homepage/fav1.png"
+                alt=".."
               />
             </a>
             <div>
@@ -83,7 +84,7 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./blogs.html" id="button1"
+                  <a class="nav-link" href="./blogs.html" id="button2"
                     >Blogs <span class="sr-only">(current)</span></a
                   >
                 </li>
@@ -95,14 +96,15 @@
                     >Projects*</a
                   >
                 </li>
-                <!-- <li class="nav-item">
-					        	<a class="nav-link" href="./login.html" id="button2" style="color:var(--global-button_color_pink-background-color); font-weight: bold;">Login/Sign Up</a>
-							</li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="./courses.html" id="button2"
+                  <a class="nav-link" href="./courses.html" id="button1"
                     >Courses</a
                   >
                 </li>
+
+                <!-- <li class="nav-item">
+					        	<a class="nav-link" href="./login.html" id="button2" style="color:var(--global-button_color_pink-background-color); font-weight: bold;">Login/Sign Up</a>
+					        </li> -->
               </ul>
             </div>
           </nav>
@@ -110,88 +112,71 @@
 
         <!-- nav end -->
 
-        <div class="container-fluid" id="blogs">
-          <div class="row-me justify-content-center">
-            <div class="col-lg-8">
-              <h2 class="heading">
-                Getting started and going deep into Web Development
-              </h2>
+        <!-- courses -->
+        <div id="courses" class="container-fluid">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./media/images_courses/nodejs_3.png"
+              class="card-img-top"
+              alt="nodejs"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-button">
+              <button
+                id="button1"
+                onclick="window.location.href = './course_intro.html'"
+              >
+                Go to course&ensp; >
+              </button>
             </div>
           </div>
 
-          <div class="row-me justify-content-center" style="margin-top: 3%;">
-            <div class="col-md-5 align-self-center">
-              <img class="image1" src="../media/images_blogs/Image 9.png" />
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./media/images_courses/nodejs_3.png"
+              class="card-img-top"
+              alt="nodejs"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
-            <div class="col-md-5 align-self-center">
-              <img
-                class="image1"
-                src="../media/images_blogs/undraw_blogging_vpvv.png"
-              />
+            <div class="card-button">
+              <button id="button1" onclick="window.location.href = '#'">
+                Go to course&ensp; >
+              </button>
             </div>
           </div>
 
-          <div class="container-fluid">
-            <div class="row-me justify-content-center" id="margin">
-              <div class="col-sm-8">
-                <p>
-                  Getting started and going deep into Web Development<br /><br />
-                  Posted by: <a href="#">Shubham Singhal</a><br />
-                  Posted on: 17 April 2017 <br /><br />
-
-                  For Beginners:<br />
-                  Start with basic Front End languages : HTML , CSS for making
-                  static web pages.<br />
-                  HTML : https://www.w3schools.com/html/default.asp<br />
-                  CSS : https://www.w3schools.com/css/default.asp<br />
-                  Once Basic Front End is done one can start with BackEnd. There
-                  are various backend languages (Node.js, Python, PHP etc). I
-                  would personally suggest going with PHP initially since it is
-                  very similar to C/C++ and one will get to know what backend
-                  actually means. For database MySQL along with PHP will be
-                  best. And if someone is using nodejs go for MongoDB. Once
-                  someone knows any backend language moving on to another
-                  platform is pretty simple.<br />
-                  PHP : https://www.w3schools.com/php/<br />
-                  http://php.net/manual/en/index.php<br />
-                  NODE.js :https://www.w3schools.com/nodejs/<br />
-                  For Those who already have some basic idea of above :<br />
-                  Start with BOOTSTRAP / MATERIALIZE CSS which are basically
-                  libraries of CSS already written aFond directly available to
-                  use. One doesn’t need to remember all the classes(of HTML
-                  elements) name of these libraries, just start using them and
-                  you will remember the basic and most frequently used classes
-                  automatically.<br />
-                  BOOTSTRAP:http://getbootstrap.com/<br />
-                  MATERIALIZE CSS :http://materializecss.com/<br />
-                  JAVASCRIPT and JQUERY : It is used to program the behavior of
-                  web pages and make your pages more responsive based on various
-                  ‘Events’. There is hardly any website today that doesn’t used
-                  these language.<br />
-                  JAVASCRIPT :https://www.w3schools.com/js/default.asp<br />
-                  JQUERY :http://api.jquery.com/<br />
-                  https://www.w3schools.com/jquery/<br />
-                  BACKEND : Once basic structure is known we can move on to
-                  using FRAMEWORKS.Web frameworks automate the overhead
-                  associated with common activities performed (since there is no
-                  need to perform a task again and again ) thus reducing our
-                  task a lot .<br />
-                  LARAVEL (PHP) :
-                  https://laracasts.com/series/laravel-from-scratch-2017<br />
-                  https://laravel.com/docs/5.4/installation<br />
-                  DJANGO (python): https://docs.djangoproject.com/en/1.11/ (Docs
-                  are very explanatory)<br />
-                  Express
-                  (Node.js):https://expressjs.com/en/starter/installing.html<br /><br />
-
-                  <a href="./blogs.html" id="lowerlink">← Back to Blogs</a>
-                </p>
-              </div>
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./media/images_courses/nodejs_3.png"
+              class="card-img-top"
+              alt="nodejs"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-button">
+              <button id="button1" onclick="window.location.href = '#'">
+                Go to course&ensp; >
+              </button>
             </div>
           </div>
         </div>
+        <!-- end -->
 
-        <!--footer stars-->
+        <!-- footer -->
 
         <div class="container-fluid" id="space">
           <div class="row-me justify-content-center">
@@ -202,7 +187,9 @@
               <div>
                 <p>
                   E-mail:
-                  <a href="#" style="color: black;">codingclub@gmail.com</a>
+                  <a href="#" style="color: black; text-decoration: none;"
+                    >codingclub@gmail.com</a
+                  >
                 </p>
               </div>
               <div>
@@ -226,23 +213,25 @@
                     href="https://www.facebook.com/codingclubiitg/"
                     target="_blank"
                   >
-                    <img src="../media/images_homepage/icons-3.png" alt="..." />
+                    <img src="./media/images_homepage/icons-3.png" alt=".." />
                   </a>
                 </li>
                 <li style="display: inline; padding: 10px;">
                   <a href="#" target="_blank">
-                    <img src="../media/images_homepage/icons-1.png" alt="..." />
+                    <img src="./media/images_homepage/icons-1.png" alt=".." />
                   </a>
                 </li>
                 <li style="display: inline; padding: 10px;">
                   <a href="#" target="_blank">
-                    <img src="../media/images_homepage/icons-4.png" alt="..." />
+                    <img src="./media/images_homepage/icons-4.png" alt=".." />
                   </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+
+        <!-- footer end -->
       </div>
     </div>
     <!-- HERE -->

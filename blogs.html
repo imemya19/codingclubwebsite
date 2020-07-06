@@ -6,7 +6,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <title>Coding Club</title>
 
     <link
@@ -16,13 +15,9 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../new_styles/completed_projects.css"
-    />
+    <link rel="stylesheet" type="text/css" href="./new_styles/blogs.css" />
 
-    <link rel="icon" type="image/jpg" href="../media/images_homepage/fav.jpg" />
+    <link rel="icon" type="image/jpg" href="./media/images_homepage/fav.jpg" />
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -49,8 +44,8 @@
             <a href="https://www.facebook.com/codingclubiitg" target="_blank">
               <img
                 id="clublogo"
-                src="../media/images_homepage/fav1.png"
-                alt="..."
+                src="./media/images_homepage/fav1.png"
+                alt=".."
               />
             </a>
             <div>
@@ -86,7 +81,7 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./blogs.html" id="button2"
+                  <a class="nav-link" href="./blogs.html" id="button1"
                     >Blogs <span class="sr-only">(current)</span></a
                   >
                 </li>
@@ -94,7 +89,7 @@
                   <a
                     class="nav-link"
                     href="./ongoing_projects.html"
-                    id="button1"
+                    id="button2"
                     >Projects*</a
                   >
                 </li>
@@ -113,29 +108,46 @@
 
         <!-- nav end -->
 
-        <div class="container-fluid" style="padding-top: 50px;">
-          <ul style="list-style-type: none; font-size: 20px;">
-            <li style="padding-bottom: 10px;">
-              <a href="./completed_projects.html" style="color: grey;">
-                → Completed Projects</a
-              >
-            </li>
-            <li><a href="./ongoing_projects.html">→ Ongoing Projects</a></li>
-          </ul>
+        <div id="blogs" class="container-fluid">
+          <div class="row-me justify-content-center">
+            <div class="col-md-5 blog">
+              <div id="first_blog">
+                <div class="image-container">
+                  <a href="./blog1.html"
+                    ><img src="./media/images_blogs/Image 9.png" width="100%"
+                  /></a>
+                </div>
+                <div id="brief">
+                  <p>Getting started and going deep into Web Development</p>
+                  <p id="info">
+                    Posted by: Shubham Singhal<br />Posted on: 17 April 2017
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-5 blog">
+              <div id="second_blog">
+                <div class="image-container">
+                  <a href="./blog2.html"
+                    ><img src="./media/images_blogs/Image 8.png" width="100%"
+                  /></a>
+                </div>
+                <div id="brief">
+                  <p>
+                    CCSOC event-IIT Kanpur Network series and the prerequisites
+                    to get started
+                  </p>
+                  <p id="info">
+                    Posted by Satya Prakash<br />Posted on: 17 April 2017
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div
-          class="container-fluid"
-          style="padding-top: 20px; text-align: center;"
-        >
-          <h2>Completed Projects</h2>
-          <p style="color: #e53167;">(Unavailable)</p>
-        </div>
-
-        <div class="container-fluid" style="padding-bottom: 500px;"></div>
-
-        <!-- footer -->
-
+        <!--footer-->
         <div class="container-fluid" id="space">
           <div class="row-me justify-content-center">
             <div class="col-lg-4">
@@ -145,9 +157,7 @@
               <div>
                 <p>
                   E-mail:
-                  <a href="#" style="color: black; text-decoration: none;"
-                    >codingclub@gmail.com</a
-                  >
+                  <a href="#" style="color: black;">codingclub@gmail.com</a>
                 </p>
               </div>
               <div>
@@ -171,25 +181,23 @@
                     href="https://www.facebook.com/codingclubiitg/"
                     target="_blank"
                   >
-                    <img src="../media/images_homepage/icons-3.png" alt="..." />
+                    <img src="./media/images_homepage/icons-3.png" alt=".." />
                   </a>
                 </li>
                 <li style="display: inline; padding: 10px;">
                   <a href="#" target="_blank">
-                    <img src="../media/images_homepage/icons-1.png" alt="..." />
+                    <img src="./media/images_homepage/icons-1.png" alt=".." />
                   </a>
                 </li>
                 <li style="display: inline; padding: 10px;">
                   <a href="#" target="_blank">
-                    <img src="../media/images_homepage/icons-4.png" alt="..." />
+                    <img src="./media/images_homepage/icons-4.png" alt=".." />
                   </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-
-        <!-- footer end -->
       </div>
     </div>
     <!-- HERE -->
