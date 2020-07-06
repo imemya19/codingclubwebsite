@@ -81,13 +81,6 @@ button{
     padding:6px 3px;	
 }
 
-.card-button{
-    padding-top: 2%;
-    margin-bottom: 5%;
-    display: inline-block;
-}
-
-
 
 
 /*button end*/
@@ -105,34 +98,46 @@ button{
 
 /*couses*/
 
-.card{
-    border-radius: 20px;
+#weeks{
+    
     text-align: center;
-    box-shadow: 0px 0px 15px #3480E3;
+    overflow-wrap: normal;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #3480E3;
+    overflow: hidden;
+}
+
+.week-nav{
+    padding: 6%;
+    font-size: 20px;
+    letter-spacing: 0.070em;
+    border-bottom: solid;
+    margin-bottom: 0px;
+}
+
+.week-nav:hover{
+    background-color: #5897E8;
 }
 
 #courses{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2% 0%;
+    margin: 4% 0%; 
 }
-
-.card{
-    display: inline-block;
-    margin: 3%;
-}
-
+ 
 #space{
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding: 4% 0%;
+}
+
+.table, .table td, .table th {
+    border: 1px solid;
+}
+
+
+thead{
+    background-color: var( --global-blue_color-color);
 }
 
 
 /*courses end*/
-
-
-
 
 
 /*@media*/
@@ -143,3 +148,4 @@ button{
     margin-right: 0px;
   }
 }
+
