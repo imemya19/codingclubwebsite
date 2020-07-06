@@ -1,154 +1,151 @@
-:root{
-    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
-    --global-button_color_pink-background-color:#E53167;
-    --global-button_color-color:#FFFFFF;
-    --global-blue_color-color:#3480E3;
+:root {
+  --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
+  --global-button_color_pink-background-color: #e53167;
+  --global-button_color-color: #ffffff;
+  --global-blue_color-color: #3480e3;
 }
 
-
-html{
-	padding: 0px;
-	margin: 0px;
+html {
+  padding: 0px;
+  margin: 0px;
 }
 
-body{
+body {
   font-family: var(--global-font-family);
 }
 
-.wrapper{
-	overflow: hidden; 
-	background-image: url(../media/images_courses/courses.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
+.wrapper {
+  overflow: hidden;
+  background-image: url(../media/images_courses/courses.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.inner-wrapper{
-    padding-top: 2%;
-    margin-right: 5%;
-    margin-left: 5%; 
+.inner-wrapper {
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
-.row-me{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+.row-me {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /*navbar*/
 
-#navbar-content{
-	justify-content: flex-end;
-	
+#navbar-content {
+  justify-content: flex-end;
 }
 
-.nav-item{
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size:17px;
-	font-weight: 10px;
+.nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 17px;
+  font-weight: 10px;
 }
 
-#cclogoright{
-color:var(--global-blue_color-color);  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
+#cclogoright {
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  font-size: 28px;
+  letter-spacing: 0.07em;
 }
 
 /*nav*/
 
 /*button*/
 
-button{
-	border-width:0px;
+button {
+  border-width: 0px;
 }
 
-#button1{
-    border-radius: 20px;
-    background-color: var(--global-button_color_pink-background-color);
-    color: var(--global-button_color-color);
-    text-align: center;
-    width:wrap-content;
-    padding:6px 18px;	
+#button1 {
+  border-radius: 20px;
+  background-color: var(--global-button_color_pink-background-color);
+  color: var(--global-button_color-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 18px;
 }
-#button2{
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    color: grey;
-    text-align: center;
-    width:wrap-content;
-    padding:6px 3px;	
+#button2 {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: grey;
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 3px;
 }
-
-
 
 /*button end*/
 
 /*font*/
-#font18{
-	font-size: 18px;
+#font18 {
+  font-size: 18px;
 }
 
-#font20{
-    font-size: 20px;
+#font20 {
+  font-size: 20px;
 }
 
 /*endfont*/
 
 /*couses*/
 
-#weeks{
-    
-    text-align: center;
-    overflow-wrap: normal;
-    border-radius: 20px;
-    box-shadow: 10px 10px 15px #3480E3;
-    overflow: hidden;
+#weeks {
+  text-align: center;
+  overflow-wrap: normal;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #3480e3;
+  overflow: hidden;
 }
 
-.week-nav{
-    padding: 6%;
-    font-size: 20px;
-    letter-spacing: 0.070em;
-    border-bottom: solid;
-    margin-bottom: 0px;
+.week-nav {
+  padding: 6%;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+  border-bottom: solid;
+  margin-bottom: 0px;
+  background-color: white;
 }
 
-.week-nav:hover{
-    background-color: #5897E8;
+.week-nav:hover {
+  background-color: #5897e8;
 }
 
-#courses{
-    margin: 4% 0%; 
+#courses {
+  margin: 4% 0%;
 }
- 
+
 #courses img {
-    width: 100%;
-    border-radius: 20px;
+  width: 100%;
+  border-radius: 20px;
 }
 
-.course-title{
-    font-size: 38px;
-    padding: 0px 15px;
+.course-title {
+  font-size: 38px;
+  padding: 0px 15px;
 }
 
-#space{
-    padding: 4% 0%;
+#space {
+  padding: 4% 0%;
 }
 
 /*courses end*/
 
-
-
-
-
 /*@media*/
 
-@media (max-width: 435px){
-  .inner-wrapper{
+@media (max-width: 435px) {
+  .inner-wrapper {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
 
+@media (max-width: 768px) {
+  #one {
+    margin: 20%;
+  }
+}
