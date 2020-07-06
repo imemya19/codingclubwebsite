@@ -20,7 +20,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../new_styles/course_intro.css"
+      href="../new_styles/course_week.css"
     />
 
     <link rel="icon" type="image/jpg" href="../media/images_homepage/fav.jpg" />
@@ -105,6 +105,7 @@
                     >Courses</a
                   >
                 </li>
+
                 <!-- <li class="nav-item">
 					        	<a class="nav-link" href="./login.html" id="button2" style="color:var(--global-button_color_pink-background-color); font-weight: bold;">Login/Sign Up</a>
 					        </li> -->
@@ -117,71 +118,124 @@
 
         <!-- courses -->
         <div id="courses" class="container-fluid">
+          <div class="row-me justify-content-around" id="coursename">
+            Course name
+          </div>
           <div class="row-me justify-content-around">
             <div class="col-lg-2 align-self-center" id="one">
               <div id="weeks" class="card">
                 <button
                   class="week-nav"
-                  onclick="window.location.href = './courses.html'"
+                  onclick="window.location.href = './courses.html'" style="background-color: var(--global-blue_color-color); color:white;
+				  "
                 >
                   Week 1
-                </button>
-                <button class="week-nav" onclick="window.location.href = '#'">
-                  Week2
-                </button>
+			  </button>
+                <button class="week-nav" onclick="window.location.href = './course_week2.html'">
+                  Week 2
+				</button>
                 <button class="week-nav" onclick="window.location.href = '#'">
                   Week 3
-                </button>
+				</button>
                 <button class="week-nav" onclick="window.location.href = '#'">
                   Week 4
-                </button>
+				</button>
                 <button class="week-nav" onclick="window.location.href = '#'">
                   Week 5
-                </button>
+				</button>
                 <button class="week-nav" onclick="window.location.href = '#'">
                   Week 6
-                </button>
+				</button>
                 <button
                   class="week-nav"
                   style="border-bottom: none;"
                   onclick="window.location.href = '#'"
                 >
                   Week 7
-                </button>
+			</button>
               </div>
             </div>
 
-            <div class="col-lg-8">
-              <div class="row-me">
-                <p class="course-title">Python Course</p>
-              </div>
-              <div class="row-me">
-                <div class="col-md-6">
-                  <img
-                    src="../media/images_courses/nodejs_3.png"
-                    class="card-img-top"
-                    alt="nodejs"
-                  />
-                </div>
-
-                <div class="col-md-6 align-self-center">
-                  <p>
-                    The Coding Club is organizing a Interactive Session, where
-                    seniors can guide them as to how one can enhance their
-                    technical skills in the three months. This will be followed
-                    by a discussion of the various events and projects that we
-                    will be undertaking next year, and a thorough discussion of
-                    the prerequisites for the same. This event must be attended
-                    by everyone who wants to be an active member in the coming
-                    semester.<br /><br />April 24, 2019
-                  </p>
-                  <button
-                    id="button1"
-                    onclick="window.location.href = './course_week1.html'"
-                  >
-                    Register for the course &ensp; >
-                  </button>
-                </div>
+            <div class="col-lg-8" id="two">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Week 1</th>
+                      <th scope="col">Details</th>
+                      <th scope="col">Task 1</th>
+                      <th scope="col">Task 2</th>
+                      <th scope="col">Task 3</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Day 0</th>
+                      <td>
+                        The Coding Club is organizing a Interactive Session,
+                        where seniors can guide them as to how one can enhance
+                        their
+                      </td>
+                      <td class="btn"  onclick="window.location.href = '#'">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Day 1</th>
+                      <td>
+                        The Coding Club is organizing a Interactive Session,
+                        where seniors can guide them as to how one can enhance
+                        their
+                      </td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Day 2</th>
+                      <td>
+                        The Coding Club is organizing a Interactive Session,
+                        where seniors can guide them as to how one can enhance
+                        their
+                      </td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Day 3</th>
+                      <td>
+                        The Coding Club is organizing a Interactive Session,
+                        where seniors can guide them as to how one can enhance
+                        their
+                      </td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Day 4</th>
+                      <td>
+                        The Coding Club is organizing a Interactive Session,
+                        where seniors can guide them as to how one can enhance
+                        their
+                      </td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Day 5</th>
+                      <td>
+                        The Coding Club is organizing a Interactive Session,
+                        where seniors can guide them as to how one can enhance
+                        their
+                      </td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                      <td class="btn">The Coding Club is organizing a Interactive</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -246,10 +300,10 @@
         <!-- footer end -->
       </div>
     </div>
-    <!-- HERE -->
-    <footer class="container-fluid">
-      ✧ Developed and Maintained by : Coding Club IITG
-    </footer>
-    <!-- HERE -->
+      <!-- HERE -->
+      <footer class="container-fluid">
+        ✧ Developed and Maintained by : Coding Club IITG
+      </footer>
+      <!-- HERE -->
   </body>
 </html>

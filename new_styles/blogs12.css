@@ -1,121 +1,118 @@
-:root{
-    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
-    --global-button_color_pink-background-color:#E53167;
-    --global-button_color-color:#FFFFFF;
-    --global-border_color-border-color:#AFBED3;
-    --global-blue_color-color:#3480e3;
-
+:root {
+  --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
+  --global-button_color_pink-background-color: #e53167;
+  --global-button_color-color: #ffffff;
+  --global-border_color-border-color: #afbed3;
+  --global-blue_color-color: #3480e3;
 }
 
-html{
-	padding: 0px;
-	margin: 0px;
+html {
+  padding: 0px;
+  margin: 0px;
 }
 
-body{
+body {
   font-family: var(--global-font-family);
 }
-
-.row-me{
-	display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+footer {
+  background-color: var(--global-blue_color-color);
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.2%;
+  font-size: small;
+}
+.row-me {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-#blogs{
-	padding-left: 8%;
+#blogs {
+  padding-left: 8%;
   padding-right: 8%;
   padding-top: 3%;
   padding-bottom: 3%;
   overflow-wrap: break-word;
 }
 
-
-
-.wrapper{
-  overflow: hidden; 
+.wrapper {
+  overflow: hidden;
   background-image: url(../media/images_events/events.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.inner-wrapper{
-    padding-top: 2%;
-    margin-right: 5%;
-    margin-left: 5%; 
+.inner-wrapper {
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
-#margin{
+#margin {
   margin-top: 8%;
   margin-bottom: 8%;
 }
 
-
 /*navbar*/
 
-#navbar-content{
+#navbar-content {
   justify-content: flex-end;
-  
 }
 
-.nav-item{
+.nav-item {
   padding-left: 8px;
   padding-right: 8px;
-  font-size:17px;
+  font-size: 17px;
   font-weight: 10px;
 }
 
-#cclogoright{
-color:var(--global-blue_color-color);  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
+#cclogoright {
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  font-size: 28px;
+  letter-spacing: 0.07em;
 }
 
 /*nav*/
 
 /*button*/
 
-button{
-  border-width:0px;
+button {
+  border-width: 0px;
 }
 
-#button1{
-    border-radius: 20px;
-    background-color: var(--global-button_color_pink-background-color);
-    color: var(--global-button_color-color);
-    text-align: center;
-    width:wrap-content;
-    padding:6px 18px; 
+#button1 {
+  border-radius: 20px;
+  background-color: var(--global-button_color_pink-background-color);
+  color: var(--global-button_color-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 18px;
 }
-#button2{
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    color: grey;
-    text-align: center;
-    width:wrap-content;
-    padding:6px 3px;  
+#button2 {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: grey;
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 3px;
 }
 
-#button3{
-    border-radius: 20px;
-    background-color: white;
-    color: var(--global-button_color_pink-background-color);
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px; 
-    box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
-   
+#button3 {
+  border-radius: 20px;
+  background-color: white;
+  color: var(--global-button_color_pink-background-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 5px 20px;
+  box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
 }
 /*button end*/
 
-
-
-
-
-.heading{
-  color: var( --global-blue_color-color);
+.heading {
+  color: var(--global-blue_color-color);
   font-size: 38px;
   font-weight: 500;
   letter-spacing: 0.07em;
@@ -123,40 +120,32 @@ button{
   text-align: center;
 }
 
-
-
-#lowerlink{
-  color:black;
+#lowerlink {
+  color: black;
   font-weight: bold;
   text-decoration: underline;
 }
 
-
-#space{
+#space {
   padding-top: 50px;
 }
 
-#font18{
-    font-size: 18px;
+#font18 {
+  font-size: 18px;
 }
 
-#font20{
-    font-size: 20px;
+#font20 {
+  font-size: 20px;
 }
 
-.image1{
+.image1 {
   border-radius: 25px;
   width: 100%;
 }
 
-
-@media (max-width: 435px){
-  .inner-wrapper{
+@media (max-width: 435px) {
+  .inner-wrapper {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
-
-
-
-

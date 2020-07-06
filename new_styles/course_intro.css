@@ -93,7 +93,14 @@ button {
 /*endfont*/
 
 /*couses*/
-
+footer {
+  background-color: var(--global-blue_color-color);
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.2%;
+  font-size: small;
+}
 #weeks {
   text-align: center;
   overflow-wrap: normal;
